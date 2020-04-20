@@ -13,4 +13,9 @@ public class TestUpdateController {
     public String hello() {
         return "hello,update success";
     }
+
+    @RequestMapping("/update2")
+    public String hello2() {
+        return "hello,update success";
+    }
 }
